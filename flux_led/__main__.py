@@ -107,14 +107,14 @@ class utils:
     @staticmethod
     def get_color_names_list():
         names = set()
-        for key in list(webcolors.css2_hex_to_names.keys()):
-            names.add(webcolors.css2_hex_to_names[key])
-        for key in list(webcolors.css21_hex_to_names.keys()):
-            names.add(webcolors.css21_hex_to_names[key])
-        for key in list(webcolors.css3_hex_to_names.keys()):
-            names.add(webcolors.css3_hex_to_names[key])
-        for key in list(webcolors.html4_hex_to_names.keys()):
-            names.add(webcolors.html4_hex_to_names[key])
+        for key in list(webcolors.CSS2_HEX_TO_NAMES.keys()):
+            names.add(webcolors.CSS2_HEX_TO_NAMES[key])
+        for key in list(webcolors.CSS21_HEX_TO_NAMES.keys()):
+            names.add(webcolors.CSS21_HEX_TO_NAMES[key])
+        for key in list(webcolors.CSS3_HEX_TO_NAMES.keys()):
+            names.add(webcolors.CSS3_HEX_TO_NAMES[key])
+        for key in list(webcolors.HTML4_HEX_TO_NAMES.keys()):
+            names.add(webcolors.HTML4_HEX_TO_NAMES[key])
         return sorted(names)
 
     @staticmethod
